@@ -1,0 +1,27 @@
+{
+  "name": "chatav",
+  "version": "1.0.0",
+  "description": "ChatAV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abelv4173/ChatAV.git"
+  },
+  "author": "av",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abelv4173/ChatAV/issues"
+  },
+  "homepage": "https://github.com/abelv4173/ChatAV#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodeman": "^1.1.2"
+  }
+}
