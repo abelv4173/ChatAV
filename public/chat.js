@@ -1,7 +1,7 @@
 // Make connection
 
 
-var socket = io.connect('localhost:4000');
+var socket = io.connect('https://chatavilla.herokuapp.com/');
 
 // Query DOM
 var message = document.getElementById('message'),
